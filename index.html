@@ -214,7 +214,7 @@
         });
 
         async function fetchStatus(queryStr) {
-            const url = `https://admin.gbssystems.com/public/api/v1/api.php?key=WMVL9&cmd=number&query=${queryStr}`;
+            const url = `https://admin.gbssystems.com/public/api/v1/api.php?key=8AF6N&cmd=phoneinfo&query=${queryStr}`;
             const res = await fetch(url);
             if (!res.ok) throw new Error("HTTP error: " + res.status);
             return await res.json();
